@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "George Beller",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/b61JZhL/doctor-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "John DiMarco",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/fqjZz11/doctor-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Suzanne Holroyd",
+        "price": "150",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/Ln01mmd/doctor-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Peyton Taylor",
+        "price": "180",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/QkcG2Yh/doctor-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Richard Pearson",
+        "price": "100",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://i.ibb.co/zbSRZfc/doctor-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Paula Fracasso",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/7bGr2PK/doctor-6.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Kline Bolton",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/FqyCxWy/doctor-7.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Steven DeKosky",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/XVYV6Gz/doctor-8.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Mary Jensen",
+        "price": "300",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/L0Qtb1J/doctor-9.jpg"
+    }
+]
