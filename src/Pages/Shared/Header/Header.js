@@ -7,9 +7,9 @@ const Header = () => {
         <>
             <Navbar bg="primary" variant="dark" className='top-navbar' fixed="top">
                 <Container>
-                    <Navbar.Brand href="#home">
+                    {/* <Navbar.Brand href="#home">
                         <img height={'30px'} src={logo} alt="" />
-                    </Navbar.Brand>
+                    </Navbar.Brand> */}
                     <Nav className="me-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#features">Services</Nav.Link>

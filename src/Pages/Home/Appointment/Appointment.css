@@ -1,0 +1,14 @@
+.nurse {
+    background-color: antiquewhite;
+}
+
+.nurse-care {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 3%; */
+
+}
+
+.nurse-care img {
+    width: 100%;
+}

@@ -5,23 +5,23 @@ import './Services.css';
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('doctors.json')
+        fetch('services.json')
             .then(res => res.json())
             .then(data => setServices(data))
     })
     return (
-        <div className='container'>
-            <div className="row">
-                <h1 className='my-4 text-center'> Our Service</h1>
-                <div className='services-container'>
-                    {
-                        services.map(service => <Service
-                            key={service.id}
-                            service={service}
-                        ></Service>)
-                    }
-                </div>
+        <div className='container '>
+
+            <h1 className='my-4 text-center'> Our Service</h1>
+            <div className='services-container '>
+                {
+                    services.map(service => <Service
+                        key={service.id}
+                        service={service}
+                    ></Service>)
+                }
             </div>
+
         </div>
     );
 };
