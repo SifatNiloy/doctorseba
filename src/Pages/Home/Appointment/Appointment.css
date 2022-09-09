@@ -12,3 +12,16 @@
 .nurse-care img {
     width: 100%;
 }
+
+.appointment-btn {
+    background-color: #0cb8b6;
+    border: 1px solid #0cb8b6;
+    padding: 13px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.appointment-btn:hover {
+    background-color: #0dcecb;
+}
