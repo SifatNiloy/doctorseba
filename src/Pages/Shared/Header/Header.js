@@ -5,7 +5,7 @@ import './Header.css'
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
-        <>
+        <div >
             <Navbar className='color-nav text-dark' collapseOnSelect expand="lg" variant="dark" fixed='top'>
                 <Container>
                     <Navbar.Brand as={Link} to="/">
@@ -14,7 +14,7 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
-                            <Nav.Link href="#features">Features</Nav.Link>
+                            <Nav.Link href="home#services">Services</Nav.Link>
                             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
                             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -35,7 +35,7 @@ const Header = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-        </>
+        </div>
 
     );
 };
