@@ -3,63 +3,42 @@
         "id": 1,
         "name": "skin care",
         "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/b61JZhL/doctor-1.jpg"
+        "description": "Skin care is the range of practices that support skin integrity, enhance its appearance and relieve skin conditions. ",
+        "img": "https://i.ibb.co/tXrX4ZV/skin.jpg"
     },
     {
         "id": 2,
         "name": "dental care",
         "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/fqjZz11/doctor-2.jpg"
+        "description": "Dental or oral health is concerned with your teeth, gums and mouth. It prevents complications such as tooth decay,gum disease and to maintain the overall health of your mouth.",
+        "img": "https://i.ibb.co/TrMq0W8/dental.jpg"
     },
     {
         "id": 3,
         "name": "mental health",
         "price": "150",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Ln01mmd/doctor-3.jpg"
+        "img": "https://i.ibb.co/xfp7Smd/mental.jpg"
     },
     {
         "id": 4,
-        "name": "wellness and disease prevention",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/QkcG2Yh/doctor-4.jpg"
+        "name": "diabetes care",
+        "price": "300",
+        "description": "Diabetes is a chronic health condition that affects how your body turns food into energy. Your body breaks down most of the food you eat into sugar and releases it into your bloodstream.",
+        "img": "https://i.ibb.co/86H70jg/diabates.jpg"
     },
     {
         "id": 5,
-        "name": "chronic condition care",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/zbSRZfc/doctor-5.jpg"
+        "name": "sleep issues",
+        "price": "300",
+        "description": "Common sleep disorders like insomnia, restless legs syndrome, narcolepsy and sleep apnea can affect every aspect of your life ",
+        "img": "https://i.ibb.co/LvjnCPC/sleep.jpg"
     },
     {
         "id": 6,
-        "name": "diabetes care",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/7bGr2PK/doctor-6.jpg"
-    },
-    {
-        "id": 7,
-        "name": "men's health",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/FqyCxWy/doctor-7.jpg"
-    },
-    {
-        "id": 8,
-        "name": "sleep issues",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/XVYV6Gz/doctor-8.jpg"
-    },
-    {
-        "id": 9,
         "name": "Overweight and Obesity",
         "price": "300",
         "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/L0Qtb1J/doctor-9.jpg"
+        "img": "https://i.ibb.co/4PNnnf1/overweight.jpg"
     }
 ]

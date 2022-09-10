@@ -1,0 +1,33 @@
+.featured-section {
+    overflow-x: hidden;
+
+}
+
+.box {
+
+    padding: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 15px;
+    text-align: center;
+}
+
+@media only screen and (max-width :576px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width :577px) and (max-width:992px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width :993px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
