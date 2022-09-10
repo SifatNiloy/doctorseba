@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Header from './Pages/Shared/Header/Header';
 import About from './Pages/About/About';
 import Blog from './Pages/Home/Blog/Blog';
 import Home from './Pages/Home/Home/Home';
@@ -9,7 +10,7 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 
 import Footer from './Pages/Shared/Footer/Footer';
-import Header from './Pages/Shared/Header/Header';
+
 import NotFound from './Pages/Shared/NotFound/NotFound';
 
 function App() {
