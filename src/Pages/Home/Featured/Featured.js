@@ -12,7 +12,7 @@ const Featured = () => {
 
                 <div className=" boxes mb-5">
                     <div className='box'>
-                        <img className='' src={feature1} alt="" />
+                        <img className='w-100' src={feature1} alt="" />
                         <h4>Emergency service</h4>
                         <p>emergency service is available 24 hours a day, 7 days in week</p>
                     </div>
