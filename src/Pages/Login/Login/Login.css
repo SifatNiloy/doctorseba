@@ -1,4 +1,4 @@
-.login-form {
+/* .login-form {
     width: 40%;
     margin: 0 auto;
 }
@@ -8,4 +8,26 @@
 
     margin-bottom: 10px;
     padding: 10px;
+} */
+
+.login-form {
+    margin: 0 auto;
+    width: 40%;
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.login-form input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+
+
+}
+
+.register-text {
+    text-align: center;
 }

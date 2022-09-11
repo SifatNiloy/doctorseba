@@ -27,7 +27,7 @@ const Register = () => {
     }
     return (
         <div className='register-form my-5 py-5'>
-            <h2 className='register-text'>Please Register</h2>
+            <h2 className='login-text text-primary'>Please Register</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" placeholder='name' required />
                 <input type="email" name="email" placeholder='email' required />

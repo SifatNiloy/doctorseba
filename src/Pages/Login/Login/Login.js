@@ -16,9 +16,15 @@ const Login = () => {
         navigate('/register');
     }
     return (
-        <div className='my-5 pt-5 container mx-auto login-form'>
-            <h2 className='text-primary text-center'>please login</h2>
-            <Form onSubmit={handleSubmit}>
+        <div className='my-5 py-5 container mx-auto login-form'>
+            <h2 className='text-primary text-center'>Please login</h2>
+            <form onSubmit={handleSubmit}>
+                {/* <input type="text" name="name" placeholder='name' required /> */}
+                <input type="email" name="email" placeholder='email' required />
+                <input type="password" name="password" placeholder='password' required />
+                <input type="submit" value="Register" />
+            </form>
+            {/* <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
                     <Form.Control className='form-input' ref={emailRef} type="email" placeholder="Enter email" required />
@@ -37,7 +43,7 @@ const Login = () => {
                 <Button variant="primary" type="submit">
                     Submit
                 </Button>
-            </Form>
+            </Form> */}
             <p>New on Doctorseba? <Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
         </div>
     );
