@@ -14,6 +14,8 @@ import Footer from './Pages/Shared/Footer/Footer';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Doctors from './Pages/Home/Doctors/Doctors';
 
+import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+
 function App() {
   return (
     <div >
@@ -21,7 +23,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/service/:serviceId' element={<ServiceDetail></ServiceDetail>}></Route>
+        <Route path='/service/:serviceId' element={
+          <RequireAuth>
+            <ServiceDetail></ServiceDetail>
+          </RequireAuth>
+        }></Route>
         <Route path='/doctors' element={<Doctors></Doctors>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
