@@ -12,7 +12,7 @@ const Register = () => {
     ] = useCreateUserWithEmailAndPassword(auth);
     const navigate = useNavigate();
     const navigateLogin = () => {
-        navigate('/')
+        navigate('/login')
     }
     if (user) {
         navigate('/');
@@ -20,19 +20,19 @@ const Register = () => {
     const handleRegister = event => {
         event.preventDefault();
         console.log(event.target.name.value);
-        // const name = event.target.name.value;
-        // const email = event.target.email.value;
-        // const password = event.target.name.password;
-        // createUserWithEmailAndPassword(email, password);
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        createUserWithEmailAndPassword(email, password);
     }
     return (
         <div className='register-form my-5 py-5'>
             <h2 className='register-text'>Please Register</h2>
             <form onSubmit={handleRegister}>
-                <input type="text" name="name" id="" required placeholder='name' />
-                <input type="email" name="email" id="" required placeholder='email' />
-                <input type="password" name="password" id="" required placeholder='password' />
-                <input type="submit" value="Register" required />
+                <input type="text" name="name" placeholder='name' required />
+                <input type="email" name="email" placeholder='email' required />
+                <input type="password" name="password" placeholder='password' required />
+                <input type="submit" value="Register" />
             </form>
             <p>Already have an account? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link></p>
         </div>

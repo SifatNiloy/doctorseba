@@ -18,7 +18,7 @@ const Login = () => {
     return (
         <div className='my-5 pt-5 container mx-auto login-form'>
             <h2 className='text-primary text-center'>please login</h2>
-            <Form className='' onSubmit={handleSubmit}>
+            <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
 
                     <Form.Control className='form-input' ref={emailRef} type="email" placeholder="Enter email" required />
