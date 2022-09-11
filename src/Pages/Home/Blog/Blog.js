@@ -1,8 +1,8 @@
 import React from 'react';
-
+import "./Blog.css"
 const Blog = () => {
     return (
-        <div>
+        <div className='container my-5 py-5 blog'>
             <h2>What is telemedicine?</h2>
             <p>Telemedicine allows you to discuss non-emergency medical issues with a doctor by phone or online at a time that's convenient for you.
 
@@ -37,16 +37,7 @@ const Blog = () => {
                 Pricing: We chose companies that offer different payment options to suit a variety of budgets.
                 Accessibility: We considered how services and results are delivered — via phone call, video, apps, and more — and whether you'll have access to 24/7 care.
                 Vetting: The companies on our list have been vetted to ensure that they align with Healthline's brand integrity standards and approach to well-being. You can read more about our vetting process.</p>
-            <h3>
-                skin care
-                dental care
-                mental health
-                wellness and disease prevention
-                chronic condition care
-                diabetes care
-                men's health
-                sleep issues
-            </h3>
+
         </div>
     );
 };
