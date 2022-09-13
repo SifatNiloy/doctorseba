@@ -19,7 +19,7 @@ import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 function App() {
   return (
     <div >
-      <Header></Header>
+      <Header></Header><br /><br />
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
