@@ -5,16 +5,14 @@ import About from './Pages/About/About';
 import Blog from './Pages/Home/Blog/Blog';
 import Home from './Pages/Home/Home/Home';
 import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
-import Login from './Pages/Login/Login/Login';
+import Login from './Pages/Login/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
-
 import Footer from './Pages/Shared/Footer/Footer';
-
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import Doctors from './Pages/Home/Doctors/Doctors';
-
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Products from './Pages/Home/Products/Products';
+import FAQ from './Pages/Home/FAQ/FAQ';
 
 function App() {
   return (
@@ -42,6 +40,8 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
+        <Route path='/faq' element={<FAQ></FAQ>}></Route>
+        <Route path='/products' element={<Products></Products>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

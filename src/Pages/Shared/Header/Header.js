@@ -8,6 +8,7 @@ import auth from '../../../firebase.init';
 import { signOut } from 'firebase/auth';
 const Header = () => {
     const [user] = useAuthState(auth);
+    console.log(user)
     const handleSignOut = () => {
         signOut(auth);
     }
@@ -24,17 +25,18 @@ const Header = () => {
                         <Nav className="me-auto">
                             <Nav.Link href="home#services">Services</Nav.Link>
                             <Nav.Link as={Link} to="/blog">Blog</Nav.Link>
-                            <Nav.Link as={Link} to="/blog">News</Nav.Link>
+
                             <Nav.Link as={Link} to="/doctors">Doctors</Nav.Link>
-                            <Nav.Link as={Link} to="/support">Support</Nav.Link>
+
                             <Nav.Link as={Link} to="/products">Products</Nav.Link>
-                            <Nav.Link as={Link} to="/discover">Discover</Nav.Link>
+                            <Nav.Link as={Link} to="/faq">FAQ</Nav.Link>
 
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} to="/about">About</Nav.Link>
+
                             {user ?
-                                <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out</button>
+                                <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>Sign Out <small>({user.displayName})</small></button>
                                 :
                                 <Nav.Link as={Link} to="/login">Login </Nav.Link>
                             }
