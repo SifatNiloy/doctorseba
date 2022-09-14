@@ -4,6 +4,8 @@
     margin-top: 20px;
 }
 
-.about img {
-    height: 500px;
+
+.doctor-page {
+    background-image: url('../../../images/bg/bg-2.jpg');
+    margin-top: -10px;
 }

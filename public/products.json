@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "best books about overcoming anxiety",
+        "price": "300",
+        "description": "books about overcoming anxiety , good sleep and mindfullness ",
+        "img": "https://i.ibb.co/VWWSLYS/books.png"
+    },
+    {
+        "id": 2,
+        "name": "Eye care",
+        "price": "100",
+        "description": "Best blue light blocking glasses: Gamma Ray Optics Blue Light Blocking Glasses",
+        "img": "https://i.ibb.co/9n5gbZW/glasses.png"
+    },
+    {
+        "id": 3,
+        "name": "Gravity Weighted Blanket",
+        "price": "150",
+        "description": "Weighted blankets are therapeutic blankets that typically weigh between 5 and 30 pounds. They can help to relieve pain, lessen anxiety, and improve mood.",
+        "img": "https://i.ibb.co/Rh2DFhP/blanket.jpg"
+    },
+    {
+        "id": 4,
+        "name": "InnoGear Essential Oil Diffuser",
+        "price": "300",
+        "description": "Aromatherapy may help with relaxation, sleep, and mood. It may even reduce blood pressure and heart rate, all of which can reduce anxiety.",
+        "img": "https://i.ibb.co/qF5PS5z/innogear.png"
+    },
+    {
+        "id": 5,
+        "name": "Best acupressure mat",
+        "price": "300",
+        "description": " The Shakti Acupressure Mat simulates acupuncture benefits by stimulating pressure points and creating a deep relaxation state. Made with organic cotton and natural dyes, it's a great sustainable choice",
+        "img": "https://i.ibb.co/Jzkn3x9/mat.png"
+    },
+    {
+        "id": 6,
+        "name": "Back and Neck Massager",
+        "price": "300",
+        "description": "Shiatsu massage is known to relieve stress and anxiety. It also helps promote calmness and emotional and physical relaxation.",
+        "img": "https://i.ibb.co/tCK0rrY/massager.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Essential Oil Diffuser",
+        "price": "300",
+        "description": "Aromatherapy may help with relaxation, sleep, and mood. It may even reduce blood pressure and heart rate, all of which can reduce anxiety.",
+        "img": "https://i.ibb.co/zZP8DVt/oil.png"
+    },
+    {
+        "id": 8,
+        "name": "Herbal tea",
+        "price": "300",
+        "description": "Herbal teas are made from tisanes, which are blends or infusions of dried fruits, flowers, spices or herbs in water. Tisanes have been shown to offer medicinal effects.",
+        "img": "https://i.ibb.co/Q61F0mz/tea.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Erligpowht Light Therapy Lamp",
+        "price": "300",
+        "description": "Light therapy lamps are bright lamps commonly used to treat seasonal affective disorder (SAD), depression, and sleep disorders. The lamps are widely available, and you can use them at home.",
+        "img": "https://i.ibb.co/7WY3J4k/lamp.png"
+    }
+]

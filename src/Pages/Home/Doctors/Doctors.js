@@ -10,17 +10,19 @@ const Doctors = () => {
             .then(data => setDoctors(data))
     })
     return (
-        <div className='container'>
-            <h1 className='text-center my-4'>Our Doctors</h1>
-            <div className="row">
-                {
-                    doctors.map(doctor => <Doctor
-                        key={doctor.id}
-                        doctor={doctor}
-                    ></Doctor>)
-                }
-            </div>
+        <div className="doctor-page">
+            <div className='container '>
+                <h1 className='text-center my-4 pt-4'>Our Doctors</h1>
+                <div className="row">
+                    {
+                        doctors.map(doctor => <Doctor
+                            key={doctor.id}
+                            doctor={doctor}
+                        ></Doctor>)
+                    }
+                </div>
 
+            </div>
         </div>
     );
 };

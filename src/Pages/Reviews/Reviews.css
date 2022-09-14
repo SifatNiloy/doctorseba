@@ -1,0 +1,11 @@
+.reviews img {
+    width: 150px;
+    border-radius: 80px;
+    margin: 20px 0px;
+}
+
+.reviews-body {
+    background-image: url("../../images/bg/bg-1.jpg")
+}
+
+.reviews {}
