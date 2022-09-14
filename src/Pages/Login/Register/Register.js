@@ -5,6 +5,7 @@ import './Register.css';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import SocialLogin from '../Login/SocialLogin/SocialLogin';
 import { useState } from 'react';
+import Loading from '../../Shared/Loading/Loading';
 const Register = () => {
     const [agree, setAgree] = useState(false);
 
@@ -17,6 +18,9 @@ const Register = () => {
     const navigate = useNavigate();
     const navigateLogin = () => {
         navigate('/login')
+    }
+    if (loading) {
+        return <Loading></Loading>
     }
     if (user) {
         navigate('/');

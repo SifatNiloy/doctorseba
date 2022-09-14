@@ -14,6 +14,7 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Doctors from './Pages/Home/Doctors/Doctors';
 
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import Products from './Pages/Home/Products/Products';
 
 function App() {
   return (
@@ -27,7 +28,16 @@ function App() {
             <ServiceDetail></ServiceDetail>
           </RequireAuth>
         }></Route>
-        <Route path='/doctors' element={<Doctors></Doctors>}></Route>
+        <Route path='/doctors' element={
+          <RequireAuth>
+            <Doctors></Doctors>
+          </RequireAuth>
+        }></Route>
+        <Route path='/products' element={
+          <RequireAuth>
+            <Products></Products>
+          </RequireAuth>
+        }></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
