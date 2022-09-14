@@ -1,0 +1,11 @@
+.google-button {
+    background-color: #ea4335;
+    font-weight: 500;
+    border: 1px solid #ea4335;
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
