@@ -24,6 +24,7 @@ const Register = () => {
     }
     if (user) {
         navigate('/');
+        console.log(user)
     }
     const handleRegister = event => {
         event.preventDefault();

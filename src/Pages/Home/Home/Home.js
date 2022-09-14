@@ -6,15 +6,18 @@ import Featured from '../Featured/Featured';
 import Reviews from '../../Reviews/Reviews';
 import Services from '../Services/Services';
 
+
 const Home = () => {
     return (
         <div>
 
             <Banner></Banner>
-            <Appointment></Appointment>
+
             <Featured></Featured>
             <Services></Services>
+            <Appointment></Appointment>
             <Reviews></Reviews>
+
         </div>
     );
 };

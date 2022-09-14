@@ -6,7 +6,7 @@ import feature3 from '../../../images/24hourService.jpg'
 import feature4 from '../../../images/qualified-doctor.jpg'
 const Featured = () => {
     return (
-        <div className='featured-section '>
+        <div className='featured-section container'>
             <h2 className='text-center mt-3'>Featured: </h2>
             <div className="row">
 

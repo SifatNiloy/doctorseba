@@ -13,8 +13,11 @@ import Doctors from './Pages/Home/Doctors/Doctors';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Products from './Pages/Home/Products/Products';
 import FAQ from './Pages/Home/FAQ/FAQ';
+import useService from './Pages/Home/useService/useService';
+
 
 function App() {
+  const { services } = useService();
   return (
     <div >
       <Header></Header><br /><br />
@@ -23,7 +26,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/service/:serviceId' element={
           <RequireAuth>
-            <ServiceDetail></ServiceDetail>
+            <ServiceDetail services={services}></ServiceDetail>
           </RequireAuth>
         }></Route>
         <Route path='/doctors' element={

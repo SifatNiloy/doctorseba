@@ -1,27 +1,17 @@
 .footer-area {
-    background-color: #2a303b;
-    height: 260px;
+    background-color: #293e46;
+    height: 300px;
     margin-top: auto;
 }
 
-.subscribe-btn {
-    border: 1px solid #0cb8b6;
-    border-radius: 10px;
-    padding: 10px 25px;
-    font-size: 16px;
-    background-color: #0cb8b6;
-}
-
-.subscribe-btn:hover {
-    background-color: #0dd6d3;
-}
 
 .subscribe-input {
     font-size: 16px;
     border-radius: 10px;
-    padding: 9px 25px;
+    padding: 5px 15px;
     background-color: #2a303b;
     color: white;
+    width: 300px;
 }
 
 .footer-grid-part {

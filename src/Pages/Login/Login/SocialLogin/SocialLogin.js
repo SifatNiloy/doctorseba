@@ -2,9 +2,9 @@ import React from 'react';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../../../firebase.init';
-import google from '../../../../images/social/google.png'
 import Loading from '../../../Shared/Loading/Loading';
-import './SocialLogin.css'
+import './SocialLogin.css';
+
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
@@ -29,7 +29,7 @@ const SocialLogin = () => {
             </div>
             {errorElement}
             <div>
-                <button onClick={() => signInWithGoogle()} className='d-block mx-auto text-white google-button'><i class="fa-brands fa-google me-2" ></i> Sign In With Google</button>
+                <button onClick={() => signInWithGoogle()} className='d-block mx-auto text-white google-button'><i className="fa-brands fa-google me-2"></i>Sign In With Google</button>
             </div>
         </div>
     );
