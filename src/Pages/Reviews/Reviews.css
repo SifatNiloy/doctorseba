@@ -5,5 +5,6 @@
 }
 
 .reviews-body {
-    background-image: url("../../images/bg/bg-1.jpg")
+    background-image: url("../../images/bg/bg-1.jpg");
+    margin-bottom: -50px;
 }
