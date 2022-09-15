@@ -21,26 +21,26 @@ const Footer = () => {
                     <div>
                         <h4>Quick Link</h4>
                         <ul>
-                            <li>Appointment</li>
-                            <li>About Us</li>
-                            <li>Privacy Policy</li>
-                            <li>Services</li>
+                            <li><a href="">Appointment</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Services</a></li>
                         </ul>
                     </div>
                     <div>
-                        <h4>Helpful Links</h4>
+                        <h4>Contact</h4>
                         <ul>
-                            <li>Address: house 15, road 12, Montana.</li>
-                            <li>Phone: +65439027</li>
-                            <li>Email: doctorseba@gmail.com</li>
+                            <li> Address: house 15, road 12, Montana.</li>
+                            <li> Phone: +65439027</li>
+                            <li> Email: doctorseba@gmail.com</li>
                         </ul>
                     </div>
                     <div>
                         <ul>
-                            <li>Issues</li>
-                            <li>Discussions</li>
-                            <li>Sponsors</li>
-                            <li>Privacy Policy</li>
+                            <li><a href="">Issues</a></li>
+                            <li><a href="">Discussions</a></li>
+                            <li><a href="">Sponsors</a></li>
+                            <li><a href="">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>

@@ -13,6 +13,16 @@ const About = () => {
                     <h1> The Challenge</h1>
 
                     <p>In many parts of the world, there are not enough doctors to support even the most rudimentary health care services. This is especially true in limited-resource countries, many people lack access to adequate health care due to geographic, economic or cultural barriers. Some places have plenty of doctors, but in many others, the demand far exceeds the supply. That's why we are trying to reach our service to every people .</p>
+
+
+                    <h1>What we also do</h1>
+
+                    <p>Doctorseba was born with one goal in mind: to reach medical service to as much people we can. This extends to creating engaging clinical content but also to tackling broader issues that threaten global health. We are proud to have released 200+ clinical podcasts which have identified countless areas for improvement in our practice. It is time to implement solutions to drive real-world change.</p>
+                </div>
+                <div className='text-white text-primary'>
+                    <h3 >Contact us: </h3>
+                    <h5>mail: sebaonline@gmail.com</h5>
+                    <h6>Phone: +880 1721 333455 , +65439027</h6>
                 </div>
 
             </div>

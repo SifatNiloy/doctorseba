@@ -7,7 +7,7 @@ const Product = ({ product }) => {
 
         <div className=' col-sm-12 col-md-6 col-lg-4'>
             <div className='container pb-4 text-center'>
-                <Card style={{ width: '25rem' }}>
+                <Card style={{ width: '24rem' }}>
                     <Card.Img variant="top" src={img} />
                     <Card.Body>
                         <Card.Title>{name}</Card.Title>

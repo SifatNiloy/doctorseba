@@ -1,8 +1,4 @@
-/* .products {
-    display: grid;
-    grid-gap: 5%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+.products {
+    overflow-x: hidden;
 
-
-} */
+}

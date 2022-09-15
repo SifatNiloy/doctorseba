@@ -9,9 +9,9 @@ const Products = () => {
             .then((data) => setProducts(data));
     }, []);
     return (
-        <div className='my-5 py-5 '>
+        <div className='my-5 py-5 products'>
             <h2 className='text-center'>Our Products</h2>
-            <div className='row'>
+            <div className='row '>
                 {
                     products.map(product => <Product
                         key={product.id}
