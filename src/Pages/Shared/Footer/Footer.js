@@ -14,7 +14,7 @@ const Footer = () => {
                                 aria-label="Recipient's username"
                                 aria-describedby="basic-addon2"
                             />
-                            <InputGroup.Text id="basic-addon2">Join Our Mailing List</InputGroup.Text>
+                            <InputGroup.Text id="basic-addon2" className='btn btn-danger'>Join Our Mailing List</InputGroup.Text>
                         </InputGroup>
                     </div>
                 </div>
