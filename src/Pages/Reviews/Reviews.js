@@ -12,12 +12,12 @@ const Reviews = () => {
         <div className='reviews-body'>
             <h1 className='text-center text-primary pt-5'>Our patients review</h1>
             <div className='pb-5 m-5 reviews text-center'>
-                <div>
+                <div >
                     <img src={user1} alt="" />
                     <p>Arnoldas</p>
                     <h6>"Excellent Service.The doctors are  friendly and ensure that I am properly informed about my health and care. I would have no qualms in recommending them to friendly and friends."</h6>
 
-                    <div style={{ height: '1px' }} className='bg-primary w-25 mx-auto'></div>
+                    <div style={{ height: '1px' }} className='bg-primary w-25 mx-auto mt-4 '></div>
 
 
                 </div>
@@ -25,26 +25,26 @@ const Reviews = () => {
                     <img src={user2} alt="" />
                     <p> Jakub</p>
                     <h6>"I was truly satisfied we chose User.com. It wasn't easy to learn, but it was a profitable investment.Service is really good"</h6>
-                    <div style={{ height: '1px' }} className='bg-primary w-75 mx-auto'></div>
+                    <div style={{ height: '1px' }} className='bg-primary w-75 mx-auto mt-4 '></div>
                 </div>
                 <div>
                     <img src={user3} alt="" />
                     <p>Izabela H.</p>
                     <h6>"World class helpful doctors. Dr. Taylor incredible. Not only has she taken great care of my health, but also she is lovely to speak with at every appointment. It's rare to find a doctor that combines such personal touches and care for a patient as a person with outstanding quality of medical care. I highly recommend becoming her patient!"</h6>
 
-                    <div style={{ height: '1px' }} className='bg-primary w-100 mx-auto'></div>
+                    <div style={{ height: '1px' }} className='bg-primary w-100 mx-auto mt-4 '></div>
                 </div>
                 <div>
                     <img src={user4} alt="" />
                     <p>Marcin</p>
                     <h6>"excellent treatment, curiosity, investigative mind and ability to connect, you know where you stand immediately and what next steps look like. Attention doctors if you want a masterclass in watching a doctor bring medical knowledge and build rapport so that message is heard by patient ."</h6>
-                    <div style={{ height: '1px' }} className='bg-primary w-75 mx-auto'></div>
+                    <div style={{ height: '1px' }} className='bg-primary w-75 mx-auto mt-4 '></div>
                 </div>
                 <div>
                     <img src={user5} alt="" />
                     <p>Sheikh</p>
                     <h6>"the doctors combines expertise and a willingness to listen and discuss. Also, they are very friendly and professional. I've never had to wait more than a few minutes when I arrive on time for an appointment.I strongly recommend to my Friends"</h6>
-                    <div style={{ height: '1px' }} className='bg-primary w-25 mx-auto'></div>
+                    <div style={{ height: '1px' }} className='bg-primary w-25 mx-auto mb-2 mt-4 '></div>
                 </div>
                 <div>
                     <img src={user6} alt="" />

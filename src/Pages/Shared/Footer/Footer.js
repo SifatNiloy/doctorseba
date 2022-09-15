@@ -1,11 +1,12 @@
 import React from 'react';
 import { Form, InputGroup } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Footer.css'
 const Footer = () => {
     return (
         <div className='mt-auto' >
             <footer className='footer-area' >
-                <div className='text-center py-3'>
+                <div className='text-center pt-5'>
                     <div className="input-group mb-3 w-50 mx-auto">
                         <InputGroup className="mb-3">
                             <Form.Control
@@ -21,10 +22,10 @@ const Footer = () => {
                     <div>
                         <h4>Quick Link</h4>
                         <ul>
-                            <li><a href="">Appointment</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Privacy Policy</a></li>
-                            <li><a href="">Services</a></li>
+                            <li><Link to="#">Appointment</Link></li>
+                            <li><Link to="">About Us</Link></li>
+                            <li><Link to="">Privacy Policy</Link></li>
+                            <li><Link to="">Services</Link></li>
                         </ul>
                     </div>
                     <div>
@@ -37,10 +38,10 @@ const Footer = () => {
                     </div>
                     <div>
                         <ul>
-                            <li><a href="">Issues</a></li>
-                            <li><a href="">Discussions</a></li>
-                            <li><a href="">Sponsors</a></li>
-                            <li><a href="">Privacy Policy</a></li>
+                            <li><Link to="">Issues</Link></li>
+                            <li><Link to="">Discussions</Link></li>
+                            <li><Link to="">Sponsors</Link></li>
+                            <li><Link to="">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>
