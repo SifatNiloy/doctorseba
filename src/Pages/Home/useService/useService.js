@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useService = () => {
+const UseService = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
         fetch(`services.json`)
@@ -11,4 +11,4 @@ const useService = () => {
     return { services };
 }
 
-export default useService;
+export default UseService;

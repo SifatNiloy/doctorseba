@@ -24,12 +24,12 @@ const Register = () => {
     }
     if (user) {
         navigate('/');
-        console.log(user)
+        // console.log(user)
     }
     const handleRegister = event => {
         event.preventDefault();
         console.log(event.target.name.value);
-        const name = event.target.name.value;
+        const displayName = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
         const agree = event.target.terms.checked;

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
-import useService from '../useService/useService';
+import UseService from '../UseService/UseService';
 
 import './Services.css';
 
 const Services = () => {
-    const { services } = useService();
+    const { services } = UseService();
     // console.log(services);
     return (
         <div className='container '>

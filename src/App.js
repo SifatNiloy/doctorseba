@@ -13,11 +13,21 @@ import Doctors from './Pages/Home/Doctors/Doctors';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import Products from './Pages/Home/Products/Products';
 import FAQ from './Pages/Home/FAQ/FAQ';
-import useService from './Pages/Home/useService/useService';
+import { useEffect, useState } from 'react';
+
+
+
 
 
 function App() {
-  const { services } = useService();
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    fetch('services.json')
+      .then(res => res.json())
+      .then(data => setServices(data))
+  }, [])
+
   return (
     <div >
       <Header></Header><br /><br />
